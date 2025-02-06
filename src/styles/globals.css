@@ -84,3 +84,11 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+
+.container-wrapper {
+  @apply max-w-7xl mx-auto w-full
+}
+.container {
+  @apply px-4
+}
