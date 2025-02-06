@@ -3,7 +3,7 @@ export async function getUserFromDb(username, password) {
   // Simulate a database call with hardcoded values
   const hardcodedUsername = "jsmith";
   const hardcodedEmail = "test@sample.com";
-  const hardcodedPassword = "MDEwMTAxMDE=";
+  const hardcodedPassword = "MDEwMTAxMDE="; // 01010101
 
   // Check if the provided email and password match the hardcoded values
   if (
@@ -19,9 +19,6 @@ export async function getUserFromDb(username, password) {
       email: hardcodedEmail,
     };
   }
-
-  console.log(`${username}: ${hardcodedUsername}`)
-  console.log(`${password}: ${hardcodedPassword}`)
 
   // Return null if no match is found
   return null;
