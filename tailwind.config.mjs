@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 const { addDynamicIconSelectors } = require('@iconify/tailwind');
 export default {
-    darkMode: ["class"],
+    // darkMode: ["selector", '[data-mode="dark"]'], // darkモードを自前で実装する場合、これらの設定を検討する
     content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
